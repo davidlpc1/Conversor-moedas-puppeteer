@@ -1,9 +1,9 @@
 const puppeteer = require('puppeteer')
 const readlineSync = require('readline-sync')
 
-console.log('> Welcome to the currency converter bot')
-
 async function robot(){
+    console.log('> Welcome to the currency converter bot')
+    
     const browser = await puppeteer.launch({ headless:true })
     const page = await browser.newPage()
     
