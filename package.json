@@ -1,0 +1,15 @@
+{
+  "name": "Conversor-moedas-puppeteer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/davidlpc1/Conversor-moedas-puppeteer",
+  "author": "Davi Lucas <davilucasdlcreator@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "puppeteer": "^5.5.0",
+    "readline-sync": "^1.4.10"
+  }
+}
